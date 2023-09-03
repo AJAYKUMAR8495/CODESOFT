@@ -89,67 +89,7 @@ section a:hover{
 .Htext h1{
     font-size: 2rem;
 }
-/*
-.site-footer {
-    text-align: center;
-    padding: 3%;
-    background-color: #F1F1F1;
-    font-size: xx-small;
-}
-.site-footer > span{
-    float: left;
-    position: relative;
-    top: 5px;
-    font-size: 15px;
-    font-family: Georgia, sans-serif;
-}
 
-.fa {
-    padding: 0.3%;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
-    float: right;
-    
-  }
-  
-  .fa:hover {
-      opacity: 0.7;
-  }
-  
-  .fa-facebook {
-    background: #3B5998;
-    color: white;
-  }
-  
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-instagram {
-    background: #C13584;
-    color: white;
-  }
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-
-  .navitem{
-    text-decoration: none;
-    font-family: Georgia, sans-serif;
-    font-size: 15px;
-    position: relative;
-    top: 2px;
-    float: right;
-    padding: 5px;
-    
-  }
-  */
 .responsive{
     margin-top: 50px;
     text-align: center;

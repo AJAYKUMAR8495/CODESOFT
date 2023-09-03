@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+     box-sizing: border-box;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+  }
+  header {
+    background-color: #94a7a4;
+    height: 10vh;
+  }
+  .container {
+    max-width: 1200px;
+    width: 95%;
+    margin: auto;
+  }  
+  /* ////........Navbar.......//// */
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+  }
+  .menu-items {
+    display: flex;
+  }
+  .menu-items li {
+    list-style: none;
+    padding: 0.5rem;
+  }
+  .menu-items a {
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+  .menu-items a:hover {
+    border-bottom: 1px solid #f0f0e6;
+  }
+  .navbar-brand{
+    color: gray;
+  }
+/* ////........ Home ........//// */
+/* hero background image */
+.bgimage {
+    height:100vh;
+    background: url('./images/portfolio-background-header-53082_1080x675.jpg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 1.5rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+.bgimage p{
+  color: rgb(199, 194, 194);
+}
+.hero_title span{
+    color: #07374a;
+    
+}
+.angle-down-icon a{
+    text-decoration: none;
+    color: #07374a;
+    font-size: xx-large;
+}
+/* ////........About Me........//// */
+.about-me {
+    background-color: #9facb1;
+    padding: 3rem 0;
+  }
+  .about-me .about-heading {
+    color: #07374a;
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  .about-content img {
+    height: 240px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-left: 565px;
+    margin-right: auto;
+    margin-top: 50px;
+  }
+  .about-content p {
+    font-size: 1.2rem;
+    color: rgb(97, 95, 95);
+    padding: 0 2.3rem;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 60px;
+  }
+  /* skill section css */
+  .services{
+    background: #9facb1;
+    padding-top: 40px;
+    padding-bottom: 90px;
+  }
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #07374a;
+    text-align: center;
+    padding: 3rem 0;
+  }
+.skills_section{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.skills_section > div{
+  max-width: 200px;
+  margin: 15px;
+  margin-bottom: 140px;
+  padding-top: 40px;
+}
+.skills_section img{
+  width: 150px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.skills :hover{
+  background: transparent;
+  border: 1px solid #c8ece6;
+  transform: scale(1.3) rotate(0.01deg);
+}
+
+  /* project section css */
+  .Projects{
+    background: #9facb1;
+    padding-bottom: 100px;
+  }
+  .p_subtitle{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #07374a;
+    text-align: center;
+    padding: 3rem 0;
+  }
+  .project_section{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+  div.gallery {
+    margin: 80px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+    border-radius: 10px;
+    padding: auto;
+    transition: transform 0.4s;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid  #c8ece6;
+    border-radius: 10px;
+    transform: scale(1.3) rotate(0.01deg);
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+/* Resume section css */
+.Resume_section{
+  background: #9facb1;
+}
+.r_subtitle{
+  font-size: 2rem;
+  font-weight: 600;
+  color: #07374a;
+  text-align: center;
+  padding: 3rem 0;
+}
+.btn-outline{
+padding-top: 100px;
+padding-bottom: 200px;
+}
+.section_container2{
+  text-align: center;
+}
+.Resume_section a{
+text-decoration: none;
+color: black;
+ padding: 10px 20px;
+ font-size: 20px;
+ background-color:  rgb(224, 219, 219);;
+ border-radius: 20px;
+ transition: 0.5s;
+}
+.Resume_section a:hover{
+  background: transparent;
+  border: 1px solid  #c8ece6;
+}
+
+/*Contact Me section */
+.contact {
+  background: #07374a;
+  position: relative;
+  height: 45vh;
+}
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contact-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #25b79f;
+  padding: 3rem 0;
+}
+.contact-content .mail {
+  color: #f0f0e6;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+.contact-content .links {
+  color: #25b79f;
+  padding: 0.9rem;
+  padding-bottom: 1.8rem;
+  font-size: 1rem;
+}
+.contact-content a {
+  text-decoration: none;
+  color: #25b79f;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+  transition: 0.3s ease-in-out;
+}
+.contact-content a:hover {
+  color: #f0f0e6;
+}
+.copyrights{
+  text-align: center;
+  background: #121212;
+  color: whitesmoke;
+  font-family: Georgia, sans-serif;
+  font-size: x-small;
+}
